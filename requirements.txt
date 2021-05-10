@@ -1,0 +1,5 @@
+pip==21.1.1
+setuptools==56.2.0
+MLB-StatsAPI
+pytz
+yagmail
