@@ -10,6 +10,7 @@ from cc_mail import cc_mail
 from util_logger import setup_logger
 from yagmail import send_yag
 
+
 def todays_game():
     today = datetime.date.today()
     tommorrow = today + datetime.timedelta(days=1)

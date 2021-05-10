@@ -38,9 +38,9 @@ class Game(object):
         local_datetime = utc_datetime.astimezone(local_timezone)
 
         return '{} {} at {}, SP: {} vs {}{}'.format(local_datetime.strftime("%H:%MET"),
-                                                  self.away_name(),
-                                                  self.home_name(),
-                                                  self.away_probable_pitcher(),
-                                                  self.home_probable_pitcher(),
-                                                  os.linesep,
-                                                  )
+                                                    self.away_name(),
+                                                    self.home_name(),
+                                                    self.away_probable_pitcher(),
+                                                    self.home_probable_pitcher(),
+                                                    os.linesep,
+                                                    )
